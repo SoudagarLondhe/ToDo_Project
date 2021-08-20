@@ -49,3 +49,8 @@ ul li
     padding: 10px;
     position: relative;
 }
+ul .fa-check, .fa-trash
+{
+    position: absolute;
+    cursor:pointer;
+}
