@@ -54,3 +54,19 @@ ul .fa-check, .fa-trash
     position: absolute;
     cursor:pointer;
 }
+ul .fa-check
+{
+    right: 40px;
+    color: green;
+}
+ul .fa-trash
+{
+    right: 15px;
+    color: #ff0033;
+}
+ul .checked
+{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
